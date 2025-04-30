@@ -8,7 +8,7 @@ Este código retorna uma localização geográfica ao usuário apartir de uma co
 
 É necessário que instale as seguintes bibliotecas:
 - `tkinter`
-- `webview`
+- `pywebview`
 - `geopy`
 - `folium`
 

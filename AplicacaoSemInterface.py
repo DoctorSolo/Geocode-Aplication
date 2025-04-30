@@ -1,4 +1,4 @@
-from Local import Local
+from local import Local
 
 # A entrada é definida aqui, 
 # 1 primeiro defino o input que recebe a cordenada

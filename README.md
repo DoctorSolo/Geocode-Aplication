@@ -12,6 +12,12 @@ Este código retorna uma localização geográfica ao usuário apartir de uma co
 - `geopy`
 - `folium`
 
+Recomendo digitar o seguinte comando para instalar todas as dependencias:
+
+```
+pip install -r requeriments.txt
+```
+
 Também é importante que o python tenha no mínimo a versão 3.x.
 
 ##

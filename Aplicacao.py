@@ -1,3 +1,3 @@
-from InterfaceGrafica import InterfaceGrafica
+from src.InterfaceGrafica import InterfaceGrafica
 
 InterfaceGrafica().Interface()

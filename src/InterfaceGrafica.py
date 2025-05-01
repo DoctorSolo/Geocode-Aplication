@@ -1,5 +1,5 @@
 from tkinter    import *
-from local      import Local
+from src.local      import Local
 import webview  # Escolhi esta biblioteca pois é fiel a html e facil de usar
 
 # Vou implementar os valores atravez de uma interface grafica

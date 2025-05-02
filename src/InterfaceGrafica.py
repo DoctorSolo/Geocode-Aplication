@@ -9,7 +9,7 @@ class InterfaceGrafica:
 
 
     # Devo ter certeza que o valor inserido seja um numero
-    def validade_numero(self, P):
+    def validade_numero(self, P) -> bool:
         # Caso user comece digitando um numero negativo a validação vai aceitar
         if P == "" or P == "-":
             return True

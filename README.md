@@ -7,6 +7,7 @@ Este código retorna uma localização geográfica ao usuário apartir de uma co
 <h3 align=center>Pré-Requisitos</h3>
 
 É necessário que instale as seguintes bibliotecas:
+
 - `tkinter`
 - `pywebview`
 - `geopy`
@@ -52,19 +53,6 @@ Supondo que a cordenada escolhida seje `48.858844, 2.294351`, a saída vai ser `
 
 ##
 
-<h3 align=center>Contato</h3>
+<h3 align="center">Credits</h3>
 
-<div align=center>
-	<a href="https://www.instagram.com/doctor_solo_303/">
-		<img align=center src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="23"/>
-	</a>
-	<a href="https://www.linkedin.com/in/migueledu303/">
-		<img align=center src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" 	height="23"/>
-	</a>
-	<a href="https://discord.com/users/534808726570270731/">
-		<img align=center src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"	height="23"/>
-	</a>
-	<a href="https://doctor-solo.itch.io/">
-		<img align=center src="https://img.shields.io/badge/-Itch.io-000?style=for-the-badge&logo=itch.io&logoColor=%23E4405F" 	height="25"/>
-	</a>
-</div>
+- <img height=30 src="imagens/lupa.png"/> Icon created by [Magnific](https://www.flaticon.com/br/autores/magnific) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/lupa_2703438?term=lupa&page=1&position=31&origin=search&related_id=2703438)

@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 imagens/Local.html
 src/__pycache__/
+build/
+Aplicacao.spec

@@ -57,11 +57,14 @@ class InterfaceGrafica:
         saida = Label(janela, text='')
         saida.grid(column=3, row=1)
         
-        
+        janela_web = None  # Variavel para armazenar a janela do mapa
         # Resultado no mapa
-        def resultado_mapa(local_img='imagens/nao_encontrado.html'):
-            visual_map = webview.create_window("visual map", local_img)
-            webview.start()
+        def resultado_mapa(local_img='imagens/Local.html'):
+            nonlocal janela_web
+            if janela_web is not None:
+                janela_web.destroy()
+            
+            janela_web = webview.create_window("Visual Map", local_img)
 
         
         # Para o botão
@@ -73,7 +76,12 @@ class InterfaceGrafica:
             saida["text"] = local0.pesquisa()           #   Informa qual é o local ou se não existe
 
 
-        enter = Button(janela, text="ENTER", command=insere_valor)
+        #Inicia webview EM SEPARADO (não dentro do callback)
+        def iniciar_webview():
+            webview.start()
+        
+        
+        enter = Button(janela, text="ENTER", command=lambda: insere_valor())
         enter.grid(column=0, row=4)
 
         janela.mainloop()   #Fim da janela

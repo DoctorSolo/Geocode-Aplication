@@ -1,58 +1,108 @@
-<h2 align=center>Sistema simples de localização</h2>
+<h1 align="center">Geocode Application</h1>
 
-Este código retorna uma localização geográfica ao usuário apartir de uma cordenada informada. O usuário pode usar para checar os pontos comerciais, turisticos e rotas por perto.
-
-##
-
-<h3 align=center>Pré-Requisitos</h3>
-
-É necessário que instale as seguintes bibliotecas:
-
-- `tkinter`
-- `pywebview`
-- `geopy`
-- `folium`
-
-Recomendo digitar o seguinte comando para instalar todas as dependencias:
-
-```
-pip install -r requeriments.txt
-```
-
-Também é importante que o python tenha no mínimo a versão 3.x.
+<p align="center">
+  This application returns a geographic location to the user based on provided coordinates. Users can utilize it to check nearby commercial locations, tourist attractions, and routes.
+</p>
 
 ##
 
-<h3 align=center>Instalação</h3>
+<h3 align="center">Setting Up the Environment</h3>
 
-Caso tenha o git instalado então use esse comando em seu terminal de preferencia para clonar meu projeto.
+I recommend creating a virtual environment for this project. Run the following commands in your terminal:
 
-```
-git clone https://github.com/DoutorSolo/projeto-de-localizacao.git
+```bash
+# Create the virtual environment
+python -m venv .venv
+
+# Activate it (Linux/macOS)
+source ./.venv/bin/activate
+
+# If the above doesn't work, try:
+source ./.venv/bin/activate.fish
+
+# On Windows, use:
+# .venv\Scripts\activate
 ```
 
-##
+Next, install the required dependencies:
 
-<h3 align=center>Usos</h3>
+```bash
+pip install -r requirements.txt
+```
 
-Este projeto tem duas opções de uso, se for do seu interesse usar uma interface então nevege até `aplicacao.py` que é onde ela sera executada, o user precisara informar duas informações, a latitude e longitude, depois de informar clique em `enter` e sera informada na janela princial informações do local, além disso uma outra janela sera criada com o mapa da região.
-A outra opção é a sem interface gráfica, nevegue até `AplicacaoSemInterface.py`, o user precisara informar uma unica linha com a cordenada separa por virgula, por exemplo: `48.858844, 2.294351`. Ao digitar nesse formato o terminal vai informar qual estruturas estão localizadas nesse ponto.
-
-##
-
-<h3 align=center>Principais Metodos e Funções</h3>
-
-Este codigo possui alguns metodos mais relevantes para o projeto como a função `def pesquisa(self):` que retorna as informações da cordenada como estruturas, rua, numero, cep. Outra função importante é `def map(self): que gera o mapa da região.
-Estas duas funções são o esqueleto do projeto, a recomendação é não mudar.
+> **Note:** Make sure the file is named `requirements.txt` (the original had a typo).
 
 ##
 
-<h3 align=center>Exemplos de Uso</h3>
+<h3 align="center">Cloning the Repository</h3>
 
-Supondo que a cordenada escolhida seje `48.858844, 2.294351`, a saída vai ser `Tour Eiffel, 5, Avenue Anatole France, Quartier du Gros-Caillou, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France`.
+If you have Git installed, use one of the following commands to clone the project:
+
+**HTTPS:**
+
+```bash
+git clone https://github.com/DoctorSolo/Geocode-Aplication.git
+```
+
+**SSH:**
+
+```bash
+git clone git@github.com:DoctorSolo/Geocode-Aplication.git
+```
+
+##
+
+<h3 align="center">How to Use</h3>
+
+This project offers two usage options:
+
+- **Graphical Interface (GUI):** Run the `run.py` file to launch the application. You will be prompted to enter latitude and longitude coordinates. After clicking **Enter**, the location information will be displayed in the main window, and a separate window will open showing the map of the region.
+
+- **Command Line (CLI):** [Add CLI instructions here if applicable]
+
+##
+
+<h3 align="center">Usage Example</h3>
+
+**Input Coordinates:** `48.858844, 2.294351`
+
+**Output:**  
+`Paris - IDF, France`
+
+<img src=".github/assets/Screenshot.png"/>
 
 ##
 
 <h3 align="center">Credits</h3>
 
-- <img height=30 src="imagens/lupa.png"/> Icon created by [Magnific](https://www.flaticon.com/br/autores/magnific) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/lupa_2703438?term=lupa&page=1&position=31&origin=search&related_id=2703438)
+- <img height=30 src="assets/lupa.png"/> Icon created by [Magnific](https://www.flaticon.com/br/autores/magnific) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/lupa_2703438?term=lupa&page=1&position=31&origin=search&related_id=2703438)
+- <img height=30 src="assets/mapa-do-tesouro.png"/> Icon created by [Magnific](https://www.flaticon.com/br/autores/magnific) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/mapa-do-tesouro_475489?term=mapa-do-tesouro&page=1&position=6&origin=search&related_id=475489)
+- <img height=30 src="assets/mapas-e-bandeiras.png"/> Icon created by [Magnific](https://www.flaticon.com/br/autores/magnific) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/mapas-e-bandeiras_447031?term=mapas-e-bandeiras&page=1&position=1&origin=search&related_id=447031)
+- <img height=30 src="assets/seta-esquerda.png"/> Icon created by [Roundicons](https://www.flaticon.com/br/autores/roundicons) available at [Flaticon](https://www.flaticon.com/br/icone-gratis/seta-esquerda_271220?term=seta-esquerda&page=1&position=4&origin=search&related_id=271220)
+
+##
+
+<table align=center>
+  <tr>
+    <th><h3 align=center>Miguel Eduado</h3></th>
+    <th><h3 align=center>🐼 - Follow Me</h3></th>
+  </tr>
+  <tr>
+    <td>
+        <img align=center src="https://github.com/DoctorSolo.png"/>
+    </td>
+    <td>
+        <div align="center"> 
+  <a href="https://github.com/DoctorSolo">
+    <img width="130" src="https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white"/>
+  </a>
+  <a href="https://bsky.app/profile/doctorsolo.bsky.social">
+    <img width="130" src="https://img.shields.io/badge/-Bluesky-000?style=for-the-badge&logo=BlueSky&logoColor=blue"/>
+  </a>
+  <a href="https://discord.com/users/534808726570270731/">
+    <img width="130" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
+</div>
+    </td>
+  </tr>
+</table>

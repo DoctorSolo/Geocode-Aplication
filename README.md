@@ -89,7 +89,7 @@ This project offers two usage options:
   </tr>
   <tr>
     <td>
-        <img height=250 align=center src="https://github.com/DoctorSolo.png"/>
+        <img height=250 width=250 align=center src="https://github.com/DoctorSolo.png"/>
     </td>
     <td>
         <div align="center"> 

@@ -1,0 +1,13 @@
+app-id: org.Geocode-Aplication.App
+runtime: org.freedesktop.Platform
+runtime-version: "23.08"
+sdk: org.freedesktop.Sdk
+command: python run.py
+modules:
+  - name: python3-geocode
+    buildsystem: simple
+    build-commands:
+      - pip3 install --prefix=/app .
+    sources:
+      - type: dir
+        path: .
